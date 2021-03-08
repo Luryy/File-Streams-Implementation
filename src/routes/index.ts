@@ -1,12 +1,12 @@
 import { Router } from 'express';
 
-import BasicController from '../controller/BasicController';
+import StreamController from '../controller/StreamController';
 
 const routes = Router();
 
-const basicController = new BasicController();
+const streamController = new StreamController();
 
 routes.get('/check', (req, res) => res.json({ status: 'ok' }));
-routes.get('/', basicController.show);
+routes.get('/stream', streamController.get);
 
 export default routes;
