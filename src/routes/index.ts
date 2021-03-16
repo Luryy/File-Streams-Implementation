@@ -8,7 +8,7 @@ const routes = Router();
 const streamController = new StreamController();
 
 routes.get('/check', (req, res) => res.json({ status: 'ok' }));
-routes.get('/html-stream', (req, res) =>
+routes.get('/html-all', (req, res) =>
   res.sendFile(resolve(__dirname, '..', 'html', 'index.html')),
 );
 
