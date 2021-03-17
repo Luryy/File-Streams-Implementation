@@ -17,6 +17,7 @@ class StreamController {
       'Content-Range': `bytes ${start}-${end}/${fileSize}`,
       'Accept-Ranges': 'bytes',
       'Content-Type': 'video/mp4',
+      'Content-Length': CHUNK_SIZE,
     };
 
     res.writeHead(206, headers);
