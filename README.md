@@ -3,6 +3,8 @@
 _This project have a implementation of Node.JS Streams and a comparison between other response methods_
 
 ----
+<br/>
+
 ### Aplication
 To compare the performance this application have 3 different implementation to response a video file.
 - A response with "**send**" method, where file would be loaded into memory.
@@ -12,6 +14,7 @@ To compare the performance this application have 3 different implementation to r
 You could see the results, details and explanation at [this Article](todo)
 
 ----
+<br/>
 
 ### Get Starting
 
@@ -34,10 +37,11 @@ yarn dev:server
 ```
 
 ----
+<br/>
 
 ### Usage
 
-####Memory monitoring
+#### Memory monitoring
 
 Every 5 seconds the application logs the total memory used:
 _* this will be usefull to see diference between requests_
@@ -47,7 +51,7 @@ Used Memory: 73 MB
 Used Memory: 107 MB
 ```
 
-####Routes
+#### Routes
 
 The aplicacation have 7 routes:
 
@@ -62,9 +66,8 @@ The aplicacation have 7 routes:
 - **```GET /html-send-sync```** - Renders the video using send method.
 - **```GET /html-all```** - Renders 3 videos using one of each method at seme page.
 
-----
 
-####Requesting and comparing
+#### Requesting and comparing
 
 - After start your aplication, see the memory usage at log to compare after requests.
 
@@ -80,12 +83,8 @@ The aplicacation have 7 routes:
 [localhost:3333/send-file](http://localhost:3333/send-file)
 [localhost:3333/send-sync](http://localhost:3333/send-sync)
 
-
-
-
-
-
-
+----
+<br/>
 
 ### Projec Structure
 
@@ -120,6 +119,9 @@ Here is the project structure:
 ├── tsconfig.json
 └── yarn.lock
 ```
+----
+<br/>
+
 
 ## Autor
 
