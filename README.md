@@ -11,7 +11,7 @@ To compare the performance this application have 3 different implementation to r
 - A response with "**sendFile**" method, where streams the file directly to the user from the file system.
 - A response with a **stream code implementation**, where streams the file directly to the user from the file system.
 
-You could see the results, details and explanation at [this Article](todo)
+You could see the results, details and explanation at [this Article](https://lucas-yuri.medium.com/node-js-streams-file-98f0487605dd)
 
 ----
 <br/>
